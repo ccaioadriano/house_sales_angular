@@ -1,1 +1,7 @@
-
+<form (submit)="$event.preventDefault()">
+  <mat-form-field>
+    <mat-label>Filter by city</mat-label>
+    <input matInput>
+  </mat-form-field>
+  <button mat-raised-button color="primary">Submit</button>
+</form>
