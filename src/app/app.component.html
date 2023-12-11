@@ -1,8 +1,8 @@
 <main>
   <mat-toolbar>
-    <span>House Sales</span>
+    <a [routerLink]="['/']"><span>House Sales</span></a>
   </mat-toolbar>
   <section class="content">
-    <app-home></app-home>
+    <router-outlet></router-outlet>
   </section>
 </main>
